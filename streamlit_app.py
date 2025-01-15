@@ -6,7 +6,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score, classification_report
 
 # Load the dataset
-data_path = "data/Classification.csv"
+data_path = "Classification.csv"
 data = pd.read_csv(data_path)
 
 # Set page config
